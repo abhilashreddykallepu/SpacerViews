@@ -15,6 +15,7 @@
 		8C404BA71CC8AD4D00C93FB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C404BA51CC8AD4D00C93FB4 /* LaunchScreen.storyboard */; };
 		8C404BB21CC8AD4E00C93FB4 /* SPACERSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C404BB11CC8AD4E00C93FB4 /* SPACERSTests.m */; };
 		8C404BBD1CC8AD4E00C93FB4 /* SPACERSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C404BBC1CC8AD4E00C93FB4 /* SPACERSUITests.m */; };
+		8C404BCD1CCA1D3E00C93FB4 /* blog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8C404BCC1CCA1D3E00C93FB4 /* blog.txt */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8C404BB81CC8AD4E00C93FB4 /* SPACERSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SPACERSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C404BBC1CC8AD4E00C93FB4 /* SPACERSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPACERSUITests.m; sourceTree = "<group>"; };
 		8C404BBE1CC8AD4E00C93FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C404BCC1CCA1D3E00C93FB4 /* blog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = blog.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8C404B9D1CC8AD4D00C93FB4 /* ViewController.h */,
 				8C404B9E1CC8AD4D00C93FB4 /* ViewController.m */,
 				8C404BA01CC8AD4D00C93FB4 /* Main.storyboard */,
+				8C404BCC1CCA1D3E00C93FB4 /* blog.txt */,
 				8C404BA31CC8AD4D00C93FB4 /* Assets.xcassets */,
 				8C404BA51CC8AD4D00C93FB4 /* LaunchScreen.storyboard */,
 				8C404BA81CC8AD4E00C93FB4 /* Info.plist */,
@@ -245,6 +248,7 @@
 			files = (
 				8C404BA71CC8AD4D00C93FB4 /* LaunchScreen.storyboard in Resources */,
 				8C404BA41CC8AD4D00C93FB4 /* Assets.xcassets in Resources */,
+				8C404BCD1CCA1D3E00C93FB4 /* blog.txt in Resources */,
 				8C404BA21CC8AD4D00C93FB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +502,7 @@
 				8C404BC31CC8AD4E00C93FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C404BC41CC8AD4E00C93FB4 /* Build configuration list for PBXNativeTarget "SPACERSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				8C404BC61CC8AD4E00C93FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C404BC71CC8AD4E00C93FB4 /* Build configuration list for PBXNativeTarget "SPACERSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				8C404BC91CC8AD4E00C93FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
